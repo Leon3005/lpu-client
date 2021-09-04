@@ -1,0 +1,32 @@
+nav {
+  div,
+  a {
+    font-size: 2rem !important;
+    font-style: italic;
+  }
+  a {
+    margin-left: 2rem;
+  }
+}
+
+.mobileCollapseContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.navbar-collapse {
+  flex-grow: unset;
+  margin-right: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mobileNavButton {
+  padding-bottom: 20px;
+}
