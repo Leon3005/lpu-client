@@ -14,6 +14,14 @@ const MainCard = () => {
               class="avatar"
             />
           </div>
+          <div className="cardArrowsContainer">
+            <div>
+              <i className="bi bi-arrow-down-circle"></i>
+            </div>
+            <div>
+              <i className="bi bi-arrow-up-circle"></i>
+            </div>
+          </div>
           <div className="cardDate">
             <h3>03/09/2021</h3>
           </div>
