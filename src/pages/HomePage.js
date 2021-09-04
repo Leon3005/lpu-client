@@ -1,5 +1,11 @@
+import MainCard from "../components/MainCard";
+
 const HomePage = () => {
-  return <h1> This is the HomePage</h1>;
+  return (
+    <div>
+      <MainCard />
+    </div>
+  );
 };
 
 export default HomePage;

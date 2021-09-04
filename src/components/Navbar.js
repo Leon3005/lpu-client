@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid d-flex justify-content-between">
         <div className="mobileCollapseContainer">
           <div>
@@ -25,7 +25,7 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a class="nav-link" aria-current="page" href="#">
                 <i class="bi bi-house"></i>
               </a>
             </li>
