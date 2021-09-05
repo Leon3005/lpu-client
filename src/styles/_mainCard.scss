@@ -5,15 +5,16 @@
   align-items: center;
 }
 
+.mainCard {
+  display: flex;
+  position: relative;
+}
+
 .cardImage {
   width: 700px;
   height: 661px;
   object-fit: cover;
   filter: drop-shadow(0 0 1rem rgb(36, 36, 36));
-}
-
-.mainCard {
-  display: flex;
 }
 
 .cardDetails {

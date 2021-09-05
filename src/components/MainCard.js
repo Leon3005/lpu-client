@@ -1,4 +1,10 @@
-const MainCard = ({ username, shoeImage, date }) => {
+const MainCard = ({
+  username,
+  shoeImage,
+  date,
+  onClickUpVote,
+  onClickDownVote,
+}) => {
   return (
     <div className="cardContainer">
       <div className="mainCard">
@@ -16,10 +22,16 @@ const MainCard = ({ username, shoeImage, date }) => {
           </div>
           <div className="cardArrowsContainer">
             <div className="downvoteContainer">
-              <i className="bi bi-arrow-down-circle"></i>
+              <i
+                className="bi bi-arrow-down-circle"
+                onClick={() => onClickDownVote(username)}
+              ></i>
             </div>
             <div className="upvoteContainer">
-              <i className="bi bi-arrow-up-circle"></i>
+              <i
+                className="bi bi-arrow-up-circle"
+                onClick={() => onClickUpVote(username)}
+              ></i>
             </div>
           </div>
           <div className="cardDate">
